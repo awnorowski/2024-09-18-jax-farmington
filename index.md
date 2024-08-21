@@ -124,7 +124,7 @@ workshop is only open to people from a particular institution.
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
-{% include dc/who.html %} This workshop is only open to JAX employees, students, and affiliates.
+This workshop is only open to JAX employees, students, and affiliates. {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
